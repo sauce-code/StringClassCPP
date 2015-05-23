@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 #include "String.h"
 
 String::String() {
@@ -78,6 +75,5 @@ ostream& operator<<(ostream &out, String &s) {
 	for (int i = 0; i < s.size; i++) {
 		out << s.str[i];
 	}
-
 	return out;
 }
